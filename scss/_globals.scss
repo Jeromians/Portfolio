@@ -1,0 +1,31 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, ::after{
+    box-sizing: inherit;
+}
+
+//spacing
+.container{
+    padding-left: 5.875rem;
+    padding-right: 5.875rem;
+}
+
+//flexbox
+.flex{
+    display: flex;
+
+    &-jc-sb{
+        justify-content: space-between;
+    }
+
+    &-jc-c{
+        justify-content: center;
+    }
+
+    &-ai-c{
+        align-items: center;
+    }
+}

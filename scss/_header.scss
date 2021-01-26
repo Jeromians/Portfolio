@@ -1,0 +1,22 @@
+.header{
+    margin: 0;
+    padding: 0;
+    
+    &_searchbox{
+        font-family:'Montserrat', sans-serif;
+        color: $spanish_viridian;
+        border-style: 0px;
+        outline: 0px;
+        
+    }
+
+    &_divider{
+        >span{
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: $spanish_viridian;
+        }
+    }
+}
+
