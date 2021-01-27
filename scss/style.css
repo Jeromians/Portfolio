@@ -4,6 +4,11 @@ html {
           box-sizing: border-box;
 }
 
+* {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 *, *::before, ::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -41,6 +46,10 @@ html {
 .header {
   margin: 0;
   padding: 0;
+}
+
+.header_header1 > img {
+  margin: 5px, 0px;
 }
 
 .header_searchbox {
@@ -138,5 +147,21 @@ html {
   position: absolute;
   top: 19px;
   left: 72%;
+}
+
+.header2_secondlink {
+  height: 50px;
+  width: 100%;
+  background-color: #007f5f;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  display: block;
+}
+
+.header2_secondlink > a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
 }
 /*# sourceMappingURL=style.css.map */

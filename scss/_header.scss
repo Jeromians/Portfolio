@@ -1,7 +1,10 @@
 .header{
-    margin: 0;
+    margin:  0;
     padding: 0;
     
+    &_logo{
+        margin: 5px 0px 5px 0px;
+    }
     //Searchbox Stlyes
     &_searchbox{
     font-family: 'Montserrat', sans-serif;
@@ -102,9 +105,25 @@
             margin: 0;
             padding: 0;
             position: absolute;
-            top: 19px;
+            top: 24px;
             left: 72%;
         }
     }
+   &_secondlink{
+    
+
+       >a{
+        text-decoration: none;
+        margin-top: 10px;
+        padding: 5px; 
+
+       } 
+    
+    }
 }
+
+ 
+
+     
+
 

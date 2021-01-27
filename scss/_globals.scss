@@ -1,6 +1,12 @@
 html{
     font-size: 100%;
     box-sizing: border-box;
+    
+}
+
+*{
+   margin-left: 0;
+   margin-right: 0;
 }
 
 *, *::before, ::after{
@@ -11,6 +17,7 @@ html{
 .container{
     padding-left: 5.875rem;
     padding-right: 5.875rem;
+
 }
 
 //flexbox
