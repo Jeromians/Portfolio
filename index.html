@@ -7,7 +7,9 @@
     <title>Student Portal</title>
     <link rel="stylesheet" href="./scss/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/Script.js"></script>
 </head>
 <header>
   <header class="header">
@@ -16,13 +18,26 @@
           <img src="./Assets/Logo.png" alt="student portal">
       </a>
      
-      <input class="header_searchbox" type="text" placeholder="SEARCH">
-      
-      <a href="#" class="header_divider">
+      <div class="header_searchbox flex flex-ai-c flex-jc-sb" id="searchbox">
+          <p onclick="opensrch()">SEARCH</p>
+      </div>
+     
+      <!--Search Overlay-->
+      <div class="header_overlaySrch" id="Ovelay">
+        <div class="header_overlaySrch_closebtn" onclick="closeSearch()">
+        <span></span>
+        <span></span>
+        </div>
+        <div class="header_overlaySrch_content">
+            <input type="text" placeholder="Search.." class="header_overlaySrch_content_search">
+        </div>
+      </div>
+
+      <a href="#" class="header_divider" id="divider">
           <span></span>
       </a>
-
   </nav>
+  <nav class="header__secondlink"></nav>
 
   </header>
 </header>

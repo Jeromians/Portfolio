@@ -2,20 +2,108 @@
     margin: 0;
     padding: 0;
     
+    //Searchbox Stlyes
     &_searchbox{
-        font-family:'Montserrat', sans-serif;
-        color: $spanish_viridian;
-        border-style: 0px;
-        outline: 0px;
-        
+    font-family: 'Montserrat', sans-serif;
+    outline: 0px;
+    margin: 0;
+    padding: 10px;
+    border: 1px;
+    right: 28%;
+    position: absolute;
+    width: 100px;
+    font-size: 12px;
+    cursor: pointer;
     }
+    
+    &_searchbox:hover{
+        font-family: 'Montserrat', sans-serif;
+        color: $spanish_viridians;
+    }
+    
+    //overlay stlyes
+    &_overlaySrch{
+        height: 100%;
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color:$spanish_viridians;
+        background-color:$spanish_viridians;
+        opacity: 80%;
+       
+        &_content{
+            position: relative;
+            top: 46%;
+            width: 80%;
+            margin-top: 30px;
+            margin: auto;
+            
+        &_search{
+            border: 0px;
+            background-color: $spanish_viridians;
+            font-size: 87px;
+            font-family: 'Montserrat', sans-serif;
+            color: $honey_yellow;
+            position: absolute;
+            top: 50%;
+        }
+        }
+        
+    
+        &_closebtn{
+            cursor: pointer;
+            
+            :first-child{
+            display: block;
+            width: 1px;
+            height: 30px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            transform: rotate(45deg);
+            top: 5%;
+            left: 90%;
 
+            }
+            :last-child{
+            display: block;
+            width: 1px;
+            background-color: white;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            transform: rotate(-45deg);
+            top: 5%;
+            left: 90%;
+            }
+        }
+        
+
+        &_closebtn:hover{
+            >span{
+                background-color: $honey_yellow;
+            }
+        }
+    
+    }
+    
+    //Divider block to Social media
     &_divider{
         >span{
-        display: block;
-        width: 20px;
-        height: 1px;
-        background-color: $spanish_viridian;
+            display: block;
+            width: 1px;
+            height: 30px;
+            background-color: #007f5f;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 19px;
+            left: 72%;
         }
     }
 }
