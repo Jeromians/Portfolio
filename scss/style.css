@@ -166,6 +166,8 @@ html {
 .header_secondlink_list > li {
   font-family: 'Montserrat', sans-serif;
   float: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
 }
 
 .header_secondlink_list > li > a {
@@ -182,6 +184,8 @@ html {
 }
 
 .header_secondlink_list li:hover > a:hover {
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
   color: #007f5f;
 }
 /*# sourceMappingURL=style.css.map */
