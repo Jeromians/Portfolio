@@ -3,8 +3,9 @@
     padding: 0;
     
     &_logo{
-        margin: 5px 0px 5px 0px;
+        margin: 10px 0;
     }
+    
     //Searchbox Stlyes
     &_searchbox{
     font-family: 'Montserrat', sans-serif;
@@ -105,18 +106,25 @@
             margin: 0;
             padding: 0;
             position: absolute;
-            top: 24px;
+            top: 22px;
             left: 72%;
         }
+    
+        span:hover{
+            cursor: not-allowed;
+        }
     }
-   &_secondlink{
+
+   
+   
+   
+   //Second nav bar
+    &_secondlink{
     width: 100%;
     background-color: $spanish_viridians;
     height: 51px;
     
-
-    
-    &_list{
+     &_list{
         list-style-type: none;
         margin: 0px;
         padding: 0px;
@@ -127,7 +135,7 @@
         >li{
             font-family: 'Montserrat', sans-serif;
             float: left;
-            transition: background-color 200ms ease-in-out;
+            
         >a{
             display: block;
             color:white;
@@ -135,24 +143,27 @@
             padding: 19px 25px;
             text-decoration: none;
             font-size: x-small;
+            transition: color 300ms ease-in-out;
          }
+
+        >a:hover{
+                color: $honey_yellow;
+            }
+        
         }
-        li:hover{
-            background-color: $honey_yellow;
-            >a:hover{
-                transition: opacity 300ms ease-in-out;
-                color: $spanish_viridians;
+      
+        //dropdown
+        &_Handouts{
+            &_content{
+                display: block;
+                position: absolute;
+                background-color: ;
             }
         }
 
-    
     }  
-    
-    }
-}
+   }
+}    
 
  
-
-     
-
 
