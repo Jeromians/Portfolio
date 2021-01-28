@@ -112,25 +112,38 @@
    &_secondlink{
     width: 100%;
     background-color: $spanish_viridians;
-    height: 50px;
+    height: 51px;
 
     
     &_list{
         list-style-type: none;
-        margin: 14px;
+        margin: 0px;
         padding: 0px;
         text-decoration: none;
         overflow: hidden;
-        float: left;
+        
        
         >li{
-            display:inline;
-            font-family: 'Montserrat', sans-serif; 
-        }
+            font-family: 'Montserrat', sans-serif;
+            float: left;
         >a{
+            display: block;
+            color:white;
+            text-align: center;
+            padding: 19px 25px;
             text-decoration: none;
+            font-size: x-small;
+         }
         }
-     }
+        li:hover{
+            background-color: $honey_yellow;
+            >a:hover{
+                color: $spanish_viridians;
+            }
+        }
+
+    
+    }  
     
     }
 }

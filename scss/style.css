@@ -152,24 +152,36 @@ html {
 .header_secondlink {
   width: 100%;
   background-color: #007f5f;
-  height: 50px;
+  height: 51px;
 }
 
 .header_secondlink_list {
   list-style-type: none;
-  margin: 14px;
+  margin: 0px;
   padding: 0px;
   text-decoration: none;
   overflow: hidden;
-  float: left;
 }
 
 .header_secondlink_list > li {
-  display: inline;
   font-family: 'Montserrat', sans-serif;
+  float: left;
 }
 
-.header_secondlink_list > a {
+.header_secondlink_list > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 25px;
   text-decoration: none;
+  font-size: x-small;
+}
+
+.header_secondlink_list li:hover {
+  background-color: #FDB833;
+}
+
+.header_secondlink_list li:hover > a:hover {
+  color: #007f5f;
 }
 /*# sourceMappingURL=style.css.map */
