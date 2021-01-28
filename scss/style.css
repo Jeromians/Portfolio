@@ -48,8 +48,8 @@ html {
   padding: 0;
 }
 
-.header_header1 > img {
-  margin: 5px, 0px;
+.header_logo {
+  margin: 5px 0px 5px 0px;
 }
 
 .header_searchbox {
@@ -145,23 +145,31 @@ html {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 19px;
+  top: 24px;
   left: 72%;
 }
 
-.header2_secondlink {
-  height: 50px;
+.header_secondlink {
   width: 100%;
   background-color: #007f5f;
-  font-family: 'Montserrat', sans-serif;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-  display: block;
+  height: 50px;
 }
 
-.header2_secondlink > a {
+.header_secondlink_list {
+  list-style-type: none;
+  margin: 14px;
+  padding: 0px;
   text-decoration: none;
-  margin: 10px;
-  padding: 5px;
+  overflow: hidden;
+  float: left;
+}
+
+.header_secondlink_list > li {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header_secondlink_list > a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

@@ -110,14 +110,27 @@
         }
     }
    &_secondlink{
+    width: 100%;
+    background-color: $spanish_viridians;
+    height: 50px;
+
     
-
-       >a{
+    &_list{
+        list-style-type: none;
+        margin: 14px;
+        padding: 0px;
         text-decoration: none;
-        margin-top: 10px;
-        padding: 5px; 
-
-       } 
+        overflow: hidden;
+        float: left;
+       
+        >li{
+            display:inline;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        >a{
+            text-decoration: none;
+        }
+     }
     
     }
 }
