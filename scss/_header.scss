@@ -146,19 +146,22 @@
 
         >a:hover{
                 color: $honey_yellow;
+                
             }
         
         }
-        //dropdown
+        //dropdown Houndouts
             &_handouts{
             &_container{
-                display: none;
+                visibility: hidden;
                 position: absolute;
                 background-color: #ffffff;
-                top: 140px;
+                top: 100px;
                 border-radius: 10px;
                 width: 250px;
                 height: 200px;
+                opacity: 0;
+                transition: top 300ms, opacity 0.5s ease-in-out;
                 
                 &_list{
                    list-style-type: none;
@@ -176,7 +179,7 @@
                     padding: 10px 2px;
                     text-decoration: none;
                     font-size: small;
-                    transition: color 300ms ease-in-out;
+                    transition: color 300ms, margin-left 300ms ease-in-out;
                     top:1px;
                    }
                    >span{
@@ -188,6 +191,68 @@
                    
                     >a:hover{
                       color: $spanish_viridians;
+                      margin-left: 5px;
+                    }
+                    }
+                 
+                }
+                
+                >span{
+                  display: block;
+                  padding: 10px;
+                  padding-top: 29px;
+                  padding-left: 20px;
+                  color: $spanish_viridians;
+                }
+               }
+               &:hover &_container{
+                visibility: visible;
+                opacity: 100%;
+                top: 130px;             
+            }
+            }   
+         //dropdown Activities
+            &_activity{
+            &_container{
+                visibility: hidden;
+                position: absolute;
+                background-color: #ffffff;
+                top: 100px;
+                border-radius: 10px;
+                width: 250px;
+                height: 200px;
+                opacity: 0;
+                transition: top 300ms, opacity 0.5s ease-in-out;
+                
+                &_list{
+                   list-style-type: none;
+                   overflow: hidden;
+                   text-decoration: none;
+                   position: absolute;
+                   padding-left: 15px;
+                   width: 230px;
+                   
+                   >li{
+                   >a{
+                    display: block;
+                    color: #7f7f7f;
+                    text-align: left;
+                    padding: 10px 2px;
+                    text-decoration: none;
+                    font-size: small;
+                    transition: color 300ms, margin-left 300ms ease-in-out;
+                    top:1px;
+                   }
+                   >span{
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #cccccc;
+                    }
+                   
+                    >a:hover{
+                      color: $spanish_viridians;
+                      margin-left: 5px;
                     }
                     }
                  
@@ -202,12 +267,73 @@
                 }
             }
            &:hover &_container{
-               display: block;
-           }
-          }
-         } 
-         
-        }
+               visibility: visible;
+               opacity: 100%;
+               top: 130px;
 
+           }
+           }
+         //dropdown exam
+            &_exam{
+            &_container{
+                visibility: hidden;
+                position: absolute;
+                background-color: #ffffff;
+                top: 100px;
+                border-radius: 10px;
+                width: 250px;
+                height: 200px;
+                opacity: 0;
+                transition: top 300ms, opacity 0.5s ease-in-out;
+                
+                &_list{
+                   list-style-type: none;
+                   overflow: hidden;
+                   text-decoration: none;
+                   position: absolute;
+                   padding-left: 15px;
+                   width: 230px;
+                   
+                   >li{
+                   >a{
+                    display: block;
+                    color: #7f7f7f;
+                    text-align: left;
+                    padding: 10px 2px;
+                    text-decoration: none;
+                    font-size: small;
+                    transition: color 300ms, margin-left 300ms ease-in-out;
+                    top:1px;
+                   }
+                   >span{
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #cccccc;
+                    }
+                   
+                    >a:hover{
+                      color: $spanish_viridians;
+                      margin-left: 5px;
+                    }
+                    }
+                 
+                }
+                
+                >span{
+                  display: block;
+                  padding: 10px;
+                  padding-top: 29px;
+                  padding-left: 20px;
+                  color: $spanish_viridians;
+                }
+            }
+           &:hover &_container{
+               visibility: visible;
+               opacity: 100%;
+               top: 130px;
+            }
+            }
+        } 
+    }
 }
- 
