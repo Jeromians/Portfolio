@@ -116,9 +116,7 @@
     }
 
    
-   
-   
-   //Second nav bar
+ //Second nav bar
     &_secondlink{
     width: 100%;
     background-color: $spanish_viridians;
@@ -154,16 +152,61 @@
       
         //dropdown
         &_Handouts{
-            &_content{
+            &_container{
                 display: block;
                 position: absolute;
-                background-color: ;
+                background-color: #ffffff;
+                top: 140px;
+                border-radius: 10px;
+                width: 250px;
+                height: 200px;
+                
+                &_list{
+                   list-style-type: none;
+                   overflow: hidden;
+                   text-decoration: none;
+                   position: absolute;
+                   padding-left: 15px;
+                   width: 230px;
+                   
+                   >li{
+                   >a{
+                    display: block;
+                    color: #7f7f7f;
+                    text-align: left;
+                    padding: 10px 2px;
+                    text-decoration: none;
+                    font-size: small;
+                    transition: color 300ms ease-in-out;
+                    top:1px;
+                   }
+                   >span{
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #cccccc;
+                    }
+                   
+                    >a:hover{
+                      color: $spanish_viridians;
+                    }
+                }
+                 
+              }
+                >span{
+                  display: block;
+                  padding: 10px;
+                  padding-top: 29px;
+                  padding-left: 20px;
+                  color: $spanish_viridians;
+              }
             }
         }
 
     }  
-   }
-}    
+   }   
+ 
 
+}
  
 
