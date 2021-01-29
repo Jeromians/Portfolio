@@ -191,8 +191,8 @@ html {
   color: #FDB833;
 }
 
-.header_secondlink_list_Handouts_container {
-  display: block;
+.header_secondlink_list_handouts_container {
+  display: none;
   position: absolute;
   background-color: #ffffff;
   top: 140px;
@@ -201,7 +201,7 @@ html {
   height: 200px;
 }
 
-.header_secondlink_list_Handouts_container_list {
+.header_secondlink_list_handouts_container_list {
   list-style-type: none;
   overflow: hidden;
   text-decoration: none;
@@ -210,7 +210,7 @@ html {
   width: 230px;
 }
 
-.header_secondlink_list_Handouts_container_list > li > a {
+.header_secondlink_list_handouts_container_list > li > a {
   display: block;
   color: #7f7f7f;
   text-align: left;
@@ -222,23 +222,27 @@ html {
   top: 1px;
 }
 
-.header_secondlink_list_Handouts_container_list > li > span {
+.header_secondlink_list_handouts_container_list > li > span {
   display: block;
   width: 100%;
   height: 1px;
   background-color: #cccccc;
 }
 
-.header_secondlink_list_Handouts_container_list > li > a:hover {
+.header_secondlink_list_handouts_container_list > li > a:hover {
   color: #007f5f;
 }
 
-.header_secondlink_list_Handouts_container > span {
+.header_secondlink_list_handouts_container > span {
   display: block;
   padding: 10px;
   padding-top: 29px;
   padding-left: 20px;
   color: #007f5f;
+}
+
+.header_secondlink_list_handouts:hover .header_secondlink_list_handouts_container {
+  display: block;
 }
 
 .body_box {

@@ -121,19 +121,19 @@
     width: 100%;
     background-color: $spanish_viridians;
     height: 51px;
-    
-     &_list{
+      
+        &_list{
         list-style-type: none;
         margin: 0px;
         padding: 0px;
         text-decoration: none;
         overflow: hidden;
-        
-       
+
         >li{
             font-family: 'Montserrat', sans-serif;
             float: left;
-            
+        
+
         >a{
             display: block;
             color:white;
@@ -149,11 +149,10 @@
             }
         
         }
-      
         //dropdown
-        &_Handouts{
+            &_handouts{
             &_container{
-                display: block;
+                display: none;
                 position: absolute;
                 background-color: #ffffff;
                 top: 140px;
@@ -190,23 +189,25 @@
                     >a:hover{
                       color: $spanish_viridians;
                     }
-                }
+                    }
                  
-              }
+                }
+                
                 >span{
                   display: block;
                   padding: 10px;
                   padding-top: 29px;
                   padding-left: 20px;
                   color: $spanish_viridians;
-              }
+                }
             }
+           &:hover &_container{
+               display: block;
+           }
+          }
+         } 
+         
         }
-
-    }  
-   }   
- 
 
 }
  
-
