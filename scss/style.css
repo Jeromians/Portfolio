@@ -47,9 +47,40 @@ html {
   margin: 0px;
 }
 
+.dropdown:hover .dropdown_animation {
+  visibility: visible;
+  opacity: 100%;
+  top: 60px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+.center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .header {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.header_header {
+  width: 100%;
+  height: 100%;
+  background: white;
 }
 
 .header_logo {
@@ -161,6 +192,9 @@ html {
   width: 100%;
   background-color: #007f5f;
   height: 51px;
+  top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .header_secondlink_list {
@@ -195,7 +229,7 @@ html {
   visibility: hidden;
   position: absolute;
   background-color: #ffffff;
-  top: 100px;
+  top: 50px;
   border-radius: 10px;
   width: 250px;
   height: 200px;
@@ -245,17 +279,11 @@ html {
   color: #007f5f;
 }
 
-.header_secondlink_list_handouts:hover .header_secondlink_list_handouts_container {
-  visibility: visible;
-  opacity: 100%;
-  top: 130px;
-}
-
 .header_secondlink_list_activity_container {
   visibility: hidden;
   position: absolute;
   background-color: #ffffff;
-  top: 100px;
+  top: 50px;
   border-radius: 10px;
   width: 250px;
   height: 200px;
@@ -305,17 +333,12 @@ html {
   color: #007f5f;
 }
 
-.header_secondlink_list_activity:hover .header_secondlink_list_activity_container {
-  visibility: visible;
-  opacity: 100%;
-  top: 130px;
-}
-
 .header_secondlink_list_exam_container {
   visibility: hidden;
+  display: block;
   position: absolute;
   background-color: #ffffff;
-  top: 100px;
+  top: 50px;
   border-radius: 10px;
   width: 250px;
   height: 200px;
@@ -365,16 +388,19 @@ html {
   color: #007f5f;
 }
 
-.header_secondlink_list_exam:hover .header_secondlink_list_exam_container {
-  visibility: visible;
-  opacity: 100%;
-  top: 130px;
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FDB833;
+  width: 100%;
 }
 
 .body_box {
-  width: 100%;
-  height: 700px;
-  background-color: #FDB833;
+  height: 625px;
+}
+
+.body_box_frames_imgs {
+  height: 100px;
 }
 
 .footer {

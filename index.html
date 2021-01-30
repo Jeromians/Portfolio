@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/Script.js"></script>
 </head>
-<header class="header">
-  <nav class="header_header1 container flex flex-ai-c flex-jc-sb">
-      <div class="header_logo">
+<header class="header sticky">
+  <nav class="header_header container flex flex-ai-c flex-jc-sb">
+      
+    <div class="header_logo">
       <img src="./Assets/Logo.png" alt="student portal">
       
     </div>
@@ -38,15 +39,15 @@
       </a>
 
       <span class="header_divider"></span>
-  </nav>
+</nav>
   
 <nav class="flex flex-ai-c flex-jc-sb">
 <div class="header_secondlink container">
 <ul class="header_secondlink_list">
-<li><a href="https://jeromians.github.io/Portfolio/">HOME</a></li>
-<li class="header_secondlink_list_handouts"><a href="#">HANDOUTS</a>
+<li><a href="#">HOME</a></li>
+<li class="header_secondlink_list_handouts dropdown"><a href="#">HANDOUTS</a>
     <!--dropdown-->
-    <div class="header_secondlink_list_handouts_container">
+    <div class="header_secondlink_list_handouts_container dropdown_animation">
         <span>Subjects</span>
         <ul class="header_secondlink_list_handouts_container_list">
         <li><a href="#">Personal Development</a></li>
@@ -58,10 +59,11 @@
     </div>
     <!--dropdown-->
 </li>
-<li class="header_secondlink_list_activity"><a href="#">ACTIVITIES</a>
-<!--dropdown-->
-<div class="header_secondlink_list_activity_container">
+<li class="header_secondlink_list_activity dropdown"><a href="#">ACTIVITIES</a>
+
+<div class="header_secondlink_list_activity_container dropdown_animation">
     <span>Subjects</span>
+    <!--dropdown-->
     <ul class="header_secondlink_list_activity_container_list">
     <li><a href="#">Personal Development</a></li>
     <li><span></span></li>
@@ -69,11 +71,13 @@
     <li><span></span></li>
     <li><a href="#">Earth and Life Science</a></li>
     </ul>
+    <!--dropdown-->
 </div>
 </li>
-<!--dropdown-->
-<li class="header_secondlink_list_exam"><a href="#">EXAM</a>
-    <div class="header_secondlink_list_exam_container">
+
+<li class="header_secondlink_list_exam dropdown"><a href="#">EXAM</a>
+   <!--dropdown--> 
+    <div class="header_secondlink_list_exam_container dropdown_animation">
         <span>Subjects</span>
         <ul class="header_secondlink_list_exam_container_list">
         <li><a href="#">Personal Development</a></li>
@@ -83,18 +87,23 @@
         <li><a href="#">Earth and Life Science</a></li>
         </ul>
     </div>
-    </li>
     <!--dropdown-->
+</li>
+    
 </li>
 </ul>
 </div>
 </nav>
-<!--dropdown menu-->
 </header>
+
 <body class="body">
-    <div class="body_box">
-    </div>
+<div class="body_box">
+      <div class="body_box_frames center">
+        <img src="Assets/Frame 3.png" Class="body_box_frames_imgs center" alt="Frame 1" id="Frame 1">
+     </div>
+</div>
 </body>
+
 <footer class="footer">
 <div class="footer_box">
 

@@ -42,3 +42,25 @@ html{
     margin: 0px;
     
 }
+//dropdown
+.dropdown:hover .dropdown_animation{
+    visibility: visible;
+    opacity: 100%;
+    top: 60px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px; 
+    width: 100%;
+}
+
+.center {
+ margin: 0;
+ position: relative;
+ top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+
