@@ -643,4 +643,53 @@ html {
 .bodystress_container_textarea_tips > ul > li {
   margin: 10px 0px;
 }
+
+.bodystress_activity_section {
+  font-family: 'Gilroy',sans-serif;
+  margin: 0px;
+  padding-bottom: 40px;
+  height: 100%;
+}
+
+.bodystress_activity_section > h1 {
+  font-size: 90px;
+  margin-bottom: 15px;
+  color: #007f5f;
+}
+
+.bodystress_activity_section > h5 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.bodystress_activity_section > ol > li {
+  margin: 10px 0px;
+}
+
+.bodystress_activity_section > p {
+  margin: 5px 0px;
+}
+
+.bodystress_activity_section_btn {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  padding: 15px 45px;
+  position: relative;
+  border: 1px solid #007f5f;
+  text-decoration: none;
+  color: #007f5f;
+  background-color: #00000000;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.bodystress_activity_section_btn:hover {
+  background-color: #007f5f;
+  color: white;
+  -webkit-box-shadow: -5px 5px #FDB833;
+          box-shadow: -5px 5px #FDB833;
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
+}
 /*# sourceMappingURL=style.css.map */

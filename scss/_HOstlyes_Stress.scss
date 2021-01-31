@@ -25,7 +25,7 @@
         margin-bottom: 10px;
         }
     }
-    &_textarea{
+&_textarea{
         width: 900px;
         font-family: 'Gilroy', sans-serif;
         font-weight: lighter;
@@ -107,7 +107,54 @@
 
     }
     }
+&_activity_section{
+    font-family: 'Gilroy',sans-serif;
+    margin: 0px;
+    padding-bottom: 40px;
+    height: 100%;
+>h1{
+    font-size: 90px;
+    margin-bottom: 15px;
+    color: $spanish_viridians;
 }
+>h5{
+    font-size: 20px;
+    margin: 10px 0px;
+
+}
+>ol{
+ >li{
+      margin: 10px 0px;
+ }
+   
+}
+>p{
+    margin: 5px 0px;
+}
+&_btn{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding: 15px 45px;
+    position: relative;
+    border: 1px solid $spanish_viridians;
+    text-decoration: none;
+    color: $spanish_viridians;
+    background-color: #00000000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+&_btn:hover{
+    background-color: $spanish_viridians;
+    color: white;
+    box-shadow: -5px 5px $honey_yellow;
+    transform: translate(5px, -5px);
+  }
+
+
+}  
+}
+    
+
 
 
 
