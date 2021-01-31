@@ -40,14 +40,14 @@ html{
 .container-dropdown{
     display:block;
     margin: 0px;
-    
+    z-index: 5;
 }
 //dropdown
 .dropdown:hover .dropdown_animation{
     visibility: visible;
     opacity: 100%;
     top: 55px;
-    z-index: 5;
+    
 }
 
 .sticky{

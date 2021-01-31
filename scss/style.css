@@ -45,13 +45,13 @@ html {
 .container-dropdown {
   display: block;
   margin: 0px;
+  z-index: 5;
 }
 
 .dropdown:hover .dropdown_animation {
   visibility: visible;
   opacity: 100%;
   top: 55px;
-  z-index: 5;
 }
 
 .sticky {
@@ -424,25 +424,25 @@ html {
   src: "C:\Users\user\Desktop\Portfolio\Portfolio\Assets\Gilroy-Light.eot";
 }
 
-.body1 {
+.bodyPerdevHO {
   margin: 0;
   padding: 0;
   background-color: white;
 }
 
-.body1_title {
+.bodyPerdevHO_title {
   margin: 20px 0px 0px 40px;
   position: static;
   z-index: 1;
 }
 
-.body1_title > h1 {
+.bodyPerdevHO_title > h1 {
   font-family: 'Gilroy', sans-serif;
   font-size: 100px;
   color: #007f5f;
 }
 
-.body1_title > h4 {
+.bodyPerdevHO_title > h4 {
   font-family: 'Gilroy', sans-serif;
   font-weight: 100;
   font-size: 5px;
@@ -450,7 +450,7 @@ html {
   color: #cccccc;
 }
 
-.body1_container {
+.bodyPerdevHO_container {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,7 +460,7 @@ html {
   position: relative;
 }
 
-.body1_container_content {
+.bodyPerdevHO_container_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,19 +473,19 @@ html {
   margin: 30px 0px 0px 30px;
 }
 
-.body1_container_content_item {
+.bodyPerdevHO_container_content_item {
   width: 900px;
   margin: 20px 0px;
 }
 
-.body1_container_content_item > h2 {
+.bodyPerdevHO_container_content_item > h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 40px;
   color: #007f5f;
 }
 
-.body1_container_content_item > h6 {
+.bodyPerdevHO_container_content_item > h6 {
   font-family: 'Gilroy', sans-serif;
   font-weight: 100;
   margin: 0px 0px 5px 0px;
@@ -493,19 +493,20 @@ html {
   color: #cccccc;
 }
 
-.body1_container_content_item > p {
+.bodyPerdevHO_container_content_item > p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
 
-.body1_container_content_item_btn {
+.bodyPerdevHO_container_content_item_btn {
   margin: 20px;
   padding: 15px 45px;
   position: absolute;
   left: 700px;
   border: 1px solid #007f5f;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
   color: #007f5f;
   background-color: #00000000;
   cursor: pointer;
@@ -513,12 +514,133 @@ html {
   transition: all 0.1s ease-in-out;
 }
 
-.body1_container_content_item_btn:hover {
+.bodyPerdevHO_container_content_item_btn:hover {
   background-color: #007f5f;
   color: white;
   -webkit-box-shadow: -5px 5px #FDB833;
           box-shadow: -5px 5px #FDB833;
   -webkit-transform: translate(5px, -5px);
           transform: translate(5px, -5px);
+}
+
+.bodystress {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.bodystress_container {
+  height: 100%;
+}
+
+.bodystress_container_title {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.bodystress_container_title > h1 {
+  font-size: 150px;
+  color: #007f5f;
+  height: 155px;
+}
+
+.bodystress_container_title > h4 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.bodystress_container_title > h6 {
+  font-size: 10px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.bodystress_container_textarea {
+  width: 900px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.bodystress_container_textarea_introduction > p {
+  margin: 10px 0px;
+}
+
+.bodystress_container_textarea_typeofstress > h2 {
+  margin: 5px;
+}
+
+.bodystress_container_textarea_typeofstress > h3 {
+  margin: 0px 0px 5px 5px;
+}
+
+.bodystress_container_textarea_typeofstress > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodystress_container_textarea_typeofstress > ul {
+  -webkit-columns: 2;
+          columns: 2;
+  margin: 17px 0px;
+}
+
+.bodystress_container_textarea_typeofstress > ul > li {
+  margin: 5px 0px;
+}
+
+.bodystress_container_textarea_typeofstressor > h2 {
+  margin: 5px;
+}
+
+.bodystress_container_textarea_typeofstressor > h3 {
+  margin: 0px 0px 5px 5px;
+}
+
+.bodystress_container_textarea_typeofstressor > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodystress_container_textarea_typeofstressor > ul {
+  -webkit-columns: 2;
+          columns: 2;
+  margin: 17px 0px;
+}
+
+.bodystress_container_textarea_typeofstressor > ul > li {
+  margin: 5px 0px;
+}
+
+.bodystress_container_textarea_tips > h2 {
+  margin: 5px;
+}
+
+.bodystress_container_textarea_tips > h3 {
+  margin: 0px 0px 5px 5px;
+}
+
+.bodystress_container_textarea_tips > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodystress_container_textarea_tips > ul {
+  -webkit-columns: 2;
+          columns: 2;
+  margin: 17px 0px;
+}
+
+.bodystress_container_textarea_tips > ul > li {
+  margin: 10px 0px;
 }
 /*# sourceMappingURL=style.css.map */
