@@ -1,4 +1,4 @@
-.bodAspectofSelf{
+.bodyAspectofSelf{
     margin: 0;
     padding: 0;
     z-index: 1;
@@ -45,7 +45,7 @@
           }
         }
        
-        &_wholebrainmodel{
+        &_Earlypsychologicalthought{
         >h2{
           margin: 5px;
         }
@@ -69,7 +69,7 @@
         }
         }
         
-        &_powerofthemind{
+        &_PersonOfPsychology{
             >h2{
               margin: 5px;
             }
@@ -87,35 +87,38 @@
                     margin: 10px 0px;  
                 }
                 }
+        &_contentwpic1{
+            display: flex;
+            margin: 15px 0px;
+            &_Main{
+            width: 600px;
+            margin-right: 70px;
+            >h3{
+               margin: 10px;
+               font-size: 20px; 
+            }
+            >p{
+             margin: 10px 0px;   
             }
             
-            &_learningsytle{
-                >h2{
-                  margin: 5px;
-                }
-                >h3{
-                    margin: 0px 0px 5px 5px;
-                }
-               
-                >p{
-                    margin: 10px 0px 15px 0px;
-                }
+        } 
+        &_Picture{
+        >img{
+            align-self: start;
+            width: auto;
+            height: 250px;
+        }
+        }       
         
-                >ul{
-                    columns: 2;
-                    margin: 17px 0px;
-                    >li{
-                        margin: 10px 0px;
-                    }
-                }
-                }
+        }
 
 
 
 
 
     }
-}    
+} 
+}   
 &_activity_section{
     font-family: 'Gilroy',sans-serif;
     margin: 0px;

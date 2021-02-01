@@ -1100,7 +1100,7 @@ html {
   padding-right: 50px;
 }
 
-.bodAspectofSelf {
+.bodyAspectofSelf {
   margin: 0;
   padding: 0;
   z-index: 1;
@@ -1108,32 +1108,32 @@ html {
   width: 100%;
 }
 
-.bodAspectofSelf_container {
+.bodyAspectofSelf_container {
   height: 100%;
 }
 
-.bodAspectofSelf_container_title {
+.bodyAspectofSelf_container_title {
   font-family: 'Gilroy', sans-serif;
 }
 
-.bodAspectofSelf_container_title > h1 {
+.bodyAspectofSelf_container_title > h1 {
   font-size: 100px;
   color: #007f5f;
   height: auto;
 }
 
-.bodAspectofSelf_container_title > h4 {
+.bodyAspectofSelf_container_title > h4 {
   font-size: 15px;
   font-weight: lighter;
 }
 
-.bodAspectofSelf_container_title > h6 {
+.bodyAspectofSelf_container_title > h6 {
   font-size: 10px;
   font-weight: lighter;
   margin-bottom: 10px;
 }
 
-.bodAspectofSelf_container_textarea {
+.bodyAspectofSelf_container_textarea {
   width: 900px;
   font-family: 'Gilroy', sans-serif;
   font-weight: lighter;
@@ -1151,84 +1151,91 @@ html {
           flex: wrap;
 }
 
-.bodAspectofSelf_container_textarea_introduction > p {
+.bodyAspectofSelf_container_textarea_introduction > p {
   margin: 10px 0px;
 }
 
-.bodAspectofSelf_container_textarea_introduction > h2 {
+.bodyAspectofSelf_container_textarea_introduction > h2 {
   margin: 5px;
 }
 
-.bodAspectofSelf_container_textarea_wholebrainmodel > h2 {
+.bodyAspectofSelf_container_textarea_Earlypsychologicalthought > h2 {
   margin: 5px;
 }
 
-.bodAspectofSelf_container_textarea_wholebrainmodel > h3 {
+.bodyAspectofSelf_container_textarea_Earlypsychologicalthought > h3 {
   margin: 0px 0px 5px 5px;
 }
 
-.bodAspectofSelf_container_textarea_wholebrainmodel > p {
+.bodyAspectofSelf_container_textarea_Earlypsychologicalthought > p {
   margin: 10px 0px 15px 0px;
 }
 
-.bodAspectofSelf_container_textarea_wholebrainmodel > ul {
+.bodyAspectofSelf_container_textarea_Earlypsychologicalthought > ul {
   margin: 20px 0px;
   list-style-type: none;
   position: relative;
   padding: 0;
 }
 
-.bodAspectofSelf_container_textarea_wholebrainmodel > ul > li {
+.bodyAspectofSelf_container_textarea_Earlypsychologicalthought > ul > li {
   margin: 9px 0px;
 }
 
-.bodAspectofSelf_container_textarea_wholebrainmodel > ul > li > h5 {
+.bodyAspectofSelf_container_textarea_Earlypsychologicalthought > ul > li > h5 {
   font-size: 15px;
 }
 
-.bodAspectofSelf_container_textarea_powerofthemind > h2 {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology > h2 {
   margin: 5px;
 }
 
-.bodAspectofSelf_container_textarea_powerofthemind > h3 {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology > h3 {
   margin: 0px 0px 5px 5px;
 }
 
-.bodAspectofSelf_container_textarea_powerofthemind > p {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology > p {
   margin: 10px 0px 15px 0px;
 }
 
-.bodAspectofSelf_container_textarea_powerofthemind > ul {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology > ul {
   margin: 17px 0px;
 }
 
-.bodAspectofSelf_container_textarea_powerofthemind > ul > li {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology > ul > li {
   margin: 10px 0px;
 }
 
-.bodAspectofSelf_container_textarea_learningsytle > h2 {
-  margin: 5px;
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0px;
 }
 
-.bodAspectofSelf_container_textarea_learningsytle > h3 {
-  margin: 0px 0px 5px 5px;
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic1_Main {
+  width: 600px;
+  margin-right: 70px;
 }
 
-.bodAspectofSelf_container_textarea_learningsytle > p {
-  margin: 10px 0px 15px 0px;
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic1_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
 }
 
-.bodAspectofSelf_container_textarea_learningsytle > ul {
-  -webkit-columns: 2;
-          columns: 2;
-  margin: 17px 0px;
-}
-
-.bodAspectofSelf_container_textarea_learningsytle > ul > li {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic1_Main > p {
   margin: 10px 0px;
 }
 
-.bodAspectofSelf_activity_section {
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic1_Picture > img {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  width: auto;
+  height: 250px;
+}
+
+.bodyAspectofSelf_activity_section {
   font-family: 'Gilroy',sans-serif;
   margin: 0px;
   padding-bottom: 40px;
@@ -1236,26 +1243,26 @@ html {
   position: relative;
 }
 
-.bodAspectofSelf_activity_section > h1 {
+.bodyAspectofSelf_activity_section > h1 {
   font-size: 90px;
   margin-bottom: 15px;
   color: #007f5f;
 }
 
-.bodAspectofSelf_activity_section > h5 {
+.bodyAspectofSelf_activity_section > h5 {
   font-size: 20px;
   margin: 10px 0px;
 }
 
-.bodAspectofSelf_activity_section > ol > li {
+.bodyAspectofSelf_activity_section > ol > li {
   margin: 10px 0px;
 }
 
-.bodAspectofSelf_activity_section > p {
+.bodyAspectofSelf_activity_section > p {
   margin: 5px 0px;
 }
 
-.bodAspectofSelf_activity_section_btn {
+.bodyAspectofSelf_activity_section_btn {
   font-family: 'Montserrat', sans-serif;
   margin: 20px;
   padding: 15px 45px;
@@ -1269,7 +1276,7 @@ html {
   transition: all 0.1s ease-in-out;
 }
 
-.bodAspectofSelf_activity_section_btn:hover {
+.bodyAspectofSelf_activity_section_btn:hover {
   background-color: #007f5f;
   color: white;
   -webkit-box-shadow: -5px 5px #FDB833;
@@ -1278,13 +1285,13 @@ html {
           transform: translate(5px, -5px);
 }
 
-.bodAspectofSelf_stickyui {
+.bodyAspectofSelf_stickyui {
   top: 40px;
   z-index: 1;
   width: 300px;
 }
 
-.bodAspectofSelf_stickyui_content {
+.bodyAspectofSelf_stickyui_content {
   font-family: 'Gilroy', sans-serif;
   border-radius: 40px;
   border: 5px solid #007f5f;
@@ -1294,7 +1301,7 @@ html {
           box-shadow: -10px 10px #fdb833;
 }
 
-.bodAspectofSelf_stickyui_content > h1 {
+.bodyAspectofSelf_stickyui_content > h1 {
   font-size: 20x;
   margin-bottom: 10px;
   padding: 20px 10px;
@@ -1305,14 +1312,14 @@ html {
   color: white;
 }
 
-.bodAspectofSelf_stickyui_content > h2 {
+.bodyAspectofSelf_stickyui_content > h2 {
   font-size: 40px;
   padding: 0px 10px;
   width: 300px;
   color: #007f5f;
 }
 
-.bodAspectofSelf_stickyui_content > h6 {
+.bodyAspectofSelf_stickyui_content > h6 {
   font-size: 15px;
   font-weight: lighter;
   margin-bottom: 30px;
@@ -1321,26 +1328,26 @@ html {
   color: #cccccc;
 }
 
-.bodAspectofSelf_stickyui_content > h3 {
+.bodyAspectofSelf_stickyui_content > h3 {
   font-size: 30px;
   padding: 0px 10px;
   width: 300px;
   color: #007f5f;
 }
 
-.bodAspectofSelf_stickyui_content > ul {
+.bodyAspectofSelf_stickyui_content > ul {
   list-style-type: none;
   position: relative;
   padding: 0px 30px;
   width: 300px;
 }
 
-.bodAspectofSelf_stickyui_content > ul > li {
+.bodyAspectofSelf_stickyui_content > ul > li {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.bodAspectofSelf_stickyui_content > ul > li > a {
+.bodyAspectofSelf_stickyui_content > ul > li > a {
   display: block;
   color: #7f7f7f;
   text-align: left;
@@ -1351,7 +1358,7 @@ html {
   transition: all 300ms ease-in-out;
 }
 
-.bodAspectofSelf_stickyui_content > ul > li > a:hover {
+.bodyAspectofSelf_stickyui_content > ul > li > a:hover {
   color: #007f5f;
   margin-left: 5px;
 }
