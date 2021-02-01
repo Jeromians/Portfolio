@@ -45,13 +45,14 @@ html{
 .container-dropdown{
     display:block;
     margin: 0px;
-    z-index: 5;
+    z-index: 1;
 }
 //dropdown
 .dropdown:hover .dropdown_animation{
     visibility: visible;
     opacity: 100%;
     top: 55px;
+    box-shadow: -5px 5px 15px #333533;
     
 }
 

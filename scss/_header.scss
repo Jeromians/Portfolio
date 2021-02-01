@@ -142,7 +142,7 @@
         text-decoration: none;
         overflow: hidden;
         z-index: 4;
-       
+        
         >li{
             font-family: 'Montserrat', sans-serif;
             float: left;
@@ -165,7 +165,7 @@
         
         }
         //dropdown Houndouts
-            &_handouts{
+            &_handouts{   
             &_container{
                 visibility: hidden;
                 position: absolute;
@@ -178,6 +178,7 @@
                 display: block;
                 transition: top 300ms, opacity 0.5s ease-in-out;
                 z-index: 4;
+                
                 
                 &_list{
                    list-style-type: none;
