@@ -80,17 +80,11 @@
             >p{
                 margin: 10px 0px 15px 0px;
             }
-    
-            >ul{
-                margin: 17px 0px;
-                >li{
-                    margin: 10px 0px;  
-                }
-                }
+
         &_contentwpic1{
             display: flex;
             margin: 15px 0px;
-            &_Main{
+        &_Main{
             width: 600px;
             margin-right: 70px;
             >h3{
@@ -111,14 +105,237 @@
         }       
         
         }
+        &_contentwpic2{
+          display: flex;
+          align-items: center;
+          &_Main{
+            >h2{
+                margin: 5px;
+              }
+            >h3{
+                  margin: 10px;
+                  font-size: 20px;
+              }
+             >p{
+            margin: 10px 0px 15px 0px;
+               }
+            >ul{
+                margin: 25px 0px;
+                list-style-type: none;
+             >li{
+                margin: 20px 0px;
+                >h3{
+                    font-size: 15px;
+                }
+          }
+          }
+          }
+          &_Picture{
+            >img{
+                height: 250px;
+                width: auto;
+            }
+            }
 
-
-
-
-
+        }
+        &_contentwpic3{
+            display: flex;
+            align-items: center;
+            &_Main{
+              >h2{
+                  margin: 5px;
+                }
+              >h3{
+                    margin: 10px;
+                    font-size: 20px;
+                }
+               >p{
+              margin: 10px 0px 15px 0px;
+                 }
+              >ul{
+                  margin: 25px 0px;
+                  list-style-type: none;
+               >li{
+                  margin: 20px 0px;
+                  >h3{
+                      font-size: 15px;
+                  }
+            }
+            }
+            }
+            &_picture{
+                padding-right: 40px;
+              >img{
+                  height: 400px;
+                  width: auto;
+              }
+              }
+  
+        }
+        &_contentwpic4{
+            display: flex;
+            align-items: center;
+            &_Main{
+              >h2{
+                  margin: 5px;
+                }
+              >h3{
+                    margin: 10px;
+                    font-size: 20px;
+                }
+               >p{
+              margin: 10px 0px 15px 0px;
+                 }
+              >ul{
+                  margin: 25px 0px;
+                  list-style-type: none;
+               >li{
+                  margin: 20px 0px;
+                  >h3{
+                      font-size: 15px;
+                  }
+            }
+            }
+            }
+            &_picture{
+                padding-right: 45px;
+              >img{
+                  height: 250px;
+                  width: auto;
+              }
+              }
+  
+        }
+        &_contentwpic5{
+            display: flex;
+            align-items: center;
+            width: 850px;
+            &_Main{
+              >h2{
+                  margin: 5px;
+                }
+              >h3{
+                    margin: 10px;
+                    font-size: 20px;
+                }
+               >p{
+              margin: 10px 0px 15px 0px;
+                 }
+              >ul{
+                  margin: 25px 0px;
+                  list-style-type: none;
+               >li{
+                  margin: 20px 0px;
+                  >h3{
+                      font-size: 15px;
+                  }
+            }
+            }
+            }
+            &_Picture{
+              >img{
+                  height: 250px;
+                  width: auto;
+                  padding-left:5px;
+              }
+              }
+  
+        }
+        &_contentwpic6{
+            display: flex;
+            align-items: center;
+            width: 850px;
+            &_Main{
+              >h2{
+                  margin: 5px;
+                }
+              >h3{
+                    margin: 10px;
+                    font-size: 20px;
+                }
+               >p{
+              margin: 10px 0px 15px 0px;
+                 }
+              >ul{
+                  margin: 25px 0px;
+                  list-style-type: none;
+               >li{
+                  margin: 20px 0px;
+                  >h3{
+                      font-size: 15px;
+                  }
+            }
+            }
+            }
+            &_Picture{
+              >img{
+                  height: 250px;
+                  width: auto;
+                  padding-left:5px;
+              }
+              }
+  
+        }
+        &_contentwpic7{
+            display: flex;
+            align-items: center;
+            width: 850px;
+            &_Main{
+              >h2{
+                  margin: 5px;
+                }
+              >h3{
+                    margin: 10px;
+                    font-size: 20px;
+                }
+               >p{
+              margin: 10px 0px 15px 0px;
+                 }
+              >ul{
+                  margin: 25px 0px;
+                  list-style-type: none;
+               >li{
+                  margin: 20px 0px;
+                  >h3{
+                      font-size: 15px;
+                  }
+            }
+            }
+            }
+            &_Picture{
+              >img{
+                  height: 300px;
+                  width: auto;
+                  padding-left:5px;
+              }
+              }
+              }   
+}
+        &_Conclusion{
+    >h2{
+      margin: 5px;
     }
-} 
-}   
+    >h3{
+        margin: 0px 0px 5px 5px;
+    }
+    >p{
+        margin: 10px 0px 15px 0px;
+    }
+    >ul{
+        margin: 20px 0px;
+        list-style-type: none;
+        position: relative;
+        padding: 0;
+        >li{
+            margin: 9px 0px;
+        >h5{
+            font-size: 15px;
+         }
+        }
+    }
+    }
+}
+}
 &_activity_section{
     font-family: 'Gilroy',sans-serif;
     margin: 0px;
@@ -135,6 +352,7 @@
 >h5{
     font-size: 20px;
     margin: 10px 0px;
+    
 
 }
 >ol{
@@ -145,6 +363,7 @@
 }
 >p{
     margin: 5px 0px;
+    text-align: center;
 }
 &_btn{
     font-family: 'Montserrat', sans-serif;
@@ -243,7 +462,7 @@
 
 }
 }
-} 
+}
 
 //Sticky properties and flex
 .wrapper{

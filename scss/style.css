@@ -1198,14 +1198,6 @@ html {
   margin: 10px 0px 15px 0px;
 }
 
-.bodyAspectofSelf_container_textarea_PersonOfPsychology > ul {
-  margin: 17px 0px;
-}
-
-.bodyAspectofSelf_container_textarea_PersonOfPsychology > ul > li {
-  margin: 10px 0px;
-}
-
 .bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1235,6 +1227,287 @@ html {
   height: 250px;
 }
 
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Main > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Main > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Main > ul {
+  margin: 25px 0px;
+  list-style-type: none;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Main > ul > li {
+  margin: 20px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Main > ul > li > h3 {
+  font-size: 15px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic2_Picture > img {
+  height: 250px;
+  width: auto;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_Main > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_Main > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_Main > ul {
+  margin: 25px 0px;
+  list-style-type: none;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_Main > ul > li {
+  margin: 20px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_Main > ul > li > h3 {
+  font-size: 15px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_picture {
+  padding-right: 40px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic3_picture > img {
+  height: 400px;
+  width: auto;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_Main > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_Main > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_Main > ul {
+  margin: 25px 0px;
+  list-style-type: none;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_Main > ul > li {
+  margin: 20px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_Main > ul > li > h3 {
+  font-size: 15px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_picture {
+  padding-right: 45px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic4_picture > img {
+  height: 250px;
+  width: auto;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 850px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Main > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Main > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Main > ul {
+  margin: 25px 0px;
+  list-style-type: none;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Main > ul > li {
+  margin: 20px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Main > ul > li > h3 {
+  font-size: 15px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic5_Picture > img {
+  height: 250px;
+  width: auto;
+  padding-left: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 850px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Main > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Main > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Main > ul {
+  margin: 25px 0px;
+  list-style-type: none;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Main > ul > li {
+  margin: 20px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Main > ul > li > h3 {
+  font-size: 15px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic6_Picture > img {
+  height: 250px;
+  width: auto;
+  padding-left: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 850px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Main > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Main > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Main > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Main > ul {
+  margin: 25px 0px;
+  list-style-type: none;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Main > ul > li {
+  margin: 20px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Main > ul > li > h3 {
+  font-size: 15px;
+}
+
+.bodyAspectofSelf_container_textarea_PersonOfPsychology_contentwpic7_Picture > img {
+  height: 300px;
+  width: auto;
+  padding-left: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_Conclusion > h2 {
+  margin: 5px;
+}
+
+.bodyAspectofSelf_container_textarea_Conclusion > h3 {
+  margin: 0px 0px 5px 5px;
+}
+
+.bodyAspectofSelf_container_textarea_Conclusion > p {
+  margin: 10px 0px 15px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_Conclusion > ul {
+  margin: 20px 0px;
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+}
+
+.bodyAspectofSelf_container_textarea_Conclusion > ul > li {
+  margin: 9px 0px;
+}
+
+.bodyAspectofSelf_container_textarea_Conclusion > ul > li > h5 {
+  font-size: 15px;
+}
+
 .bodyAspectofSelf_activity_section {
   font-family: 'Gilroy',sans-serif;
   margin: 0px;
@@ -1260,6 +1533,7 @@ html {
 
 .bodyAspectofSelf_activity_section > p {
   margin: 5px 0px;
+  text-align: center;
 }
 
 .bodyAspectofSelf_activity_section_btn {
