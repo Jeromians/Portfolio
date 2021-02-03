@@ -1,0 +1,263 @@
+.bodyabstractwriting{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+
+&_container{
+    height: 100%;
+    &_title{
+       font-family: 'Gilroy', sans-serif;
+        
+       >h1{
+           font-size: 100px;
+           color: $spanish_viridians;
+           height: auto;
+       }
+       >h4{
+           font-size: 15px;
+           font-weight: lighter;
+       }
+       >h6{
+        font-size: 10px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+        }
+    }
+&_textarea{
+        width: 900px;
+        font-family: 'Gilroy', sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        flex: wrap;
+
+        &_introduction{
+        >p{
+            margin: 10px 0px;
+            
+        }
+        >h2{
+            margin: 5px;
+          }
+        }
+        &_WhatisAbstractWriting{
+        >h2{
+          margin: 5px;
+        }
+        >h3{
+            margin: 0px 0px 5px 5px;
+        }
+        >p{
+            margin: 10px 0px 15px 0px;
+        }
+
+        >ul{
+            margin: 17px 0px;
+            >li{
+                margin: 20px 0px;
+            }
+        }
+        }
+        
+        &_WhentowriteAbstract{
+            >h2{
+              margin: 5px;
+            }
+            >h3{
+                margin-left: 30px;
+            }
+            >p{
+                margin: 15px 0px;
+            }
+    
+            >ul{
+                margin: 17px 0px;
+                >li{
+                    margin: 15px 0px;
+                }
+            }
+            }
+            
+            &_tips{
+                >h2{
+                  margin: 5px;
+                }
+                >h3{
+                    margin: 0px 0px 5px 5px;
+                }
+                >p{
+                    margin: 10px 0px;
+                }
+        
+                >ul{
+                    columns: 2;
+                    margin: 17px 0px;
+                    >li{
+                        margin: 10px 0px;
+                        
+                        >p{
+                            margin: 15px 0px;
+                        }
+                    }
+                }
+                }
+
+
+
+
+
+    }
+}    
+&_activity_section{
+    font-family: 'Gilroy',sans-serif;
+    margin: 0px;
+    padding-bottom: 40px;
+    height: 100%;
+    position: relative;
+
+
+>h1{
+    font-size: 90px;
+    margin-bottom: 15px;
+    color: $spanish_viridians;
+}
+>h5{
+    font-size: 20px;
+    margin: 10px 0px;
+
+}
+>ol{
+ >li{
+      margin: 10px 0px;
+ }
+   
+}
+>p{
+    margin: 5px 0px;
+}
+&_btn{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding: 15px 45px;
+    position: relative;
+    border: 1px solid $spanish_viridians;
+    text-decoration: none;
+    color: $spanish_viridians;
+    background-color: #00000000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+&_btn:hover{
+    background-color: $spanish_viridians;
+    color: white;
+    box-shadow: -5px 5px $honey_yellow;
+    transform: translate(5px, -5px);
+  }
+
+
+}
+
+&_stickyui{
+    top: 40px;
+    z-index: 1;
+    width: 300px;
+
+&_content{
+    font-family: 'Gilroy', sans-serif;
+    border-radius: 40px;
+    border: 5px solid #007f5f;
+    height: 100%;
+    width: 308px;
+    box-shadow: -10px 10px #fdb833;
+
+    >h1{
+        font-size: 20x;
+        margin-bottom: 10px;
+        padding: 20px 10px;
+        width: 300px;
+        border-radius: 25px 25px 0px 0px;
+        background-color: $spanish_viridians;
+        font-weight: lighter;
+        color: white;
+    
+    } 
+    >h2{
+        font-size: 50px;
+        padding: 0px 10px;
+        width: 300px;
+        color: $spanish_viridians;
+         
+    }
+    >h6{
+        font-size: 15px;
+        font-weight: lighter;
+        margin-bottom: 30px;
+        padding: 0px 10px;
+        width: 300px;
+        color: #cccccc;
+    }
+    >h3{
+        font-size: 30px;
+        padding: 0px 10px;
+        width: 300px;
+        color: $spanish_viridians;
+    }
+    >ul{
+       list-style-type: none;
+       position: relative;
+       padding: 0px 30px 30px 30px;
+       width: 300px;
+       
+        >li{
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+            
+            >a{
+                display: block;
+                color: #7f7f7f;
+                text-align: left;
+                padding: 5px 0px;
+                text-decoration: none;
+                font-size: 15px;
+                transition: all 300ms ease-in-out;
+            
+    }
+            >a:hover{
+                color: $spanish_viridians;
+                margin-left: 5px;
+    }
+    }  
+    }
+
+
+}
+}
+} 
+
+//Sticky properties and flex
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+}
+.maincontent{
+display: flex;
+flex-direction: column;
+}
+.sidebar{
+position: sticky;
+top:5%;
+padding-top: 50px;
+align-self: flex-start;
+padding-right: 50px;
+}
+
+
+
+
+
+
