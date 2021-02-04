@@ -1,0 +1,218 @@
+@font-face{
+    font-family: Gilroy; src:"C:\Users\user\Desktop\Portfolio\Portfolio\Assets\Gilroy-Light.eot"
+}
+.Activity{
+    
+    margin: 0;
+    padding: 0;
+    background-color: white;
+   
+&_title{
+    margin: 20px 0px 0px 40px;
+    position: static; 
+    z-index: -1; 
+
+    >h1{
+        font-family: 'Gilroy', sans-serif;
+        font-size: 30px;
+        color: $spanish_viridians;
+        
+       }   
+    >h4{
+       font-family: 'Gilroy', sans-serif;
+       font-weight: 100;
+       font-size: 5px;
+       font-size: 20px;
+       color: #cccccc;
+       
+    }
+
+   
+}
+  &_container{
+    display: flex;
+    width: 990px;
+    height: auto;
+    margin-bottom: 30px;
+    z-index: 0;
+        
+     &_content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 30px 60px 0px 30px;
+        z-index: 1;
+        
+     &_item{
+         width: 900px;
+         margin: 20px 0px;
+        >h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight:  900;
+            font-size: 50px;
+            color: $spanish_viridians;
+            
+        }
+       >h6{
+            font-family:'Gilroy', sans-serif;
+            font-weight: 100;
+            margin: 0px 0px 5px 0px;
+            font-size: 15px;
+            color: #cccccc;
+        }
+        >ol{
+            font-family: 'Gilroy', sans-serif;
+            >li{
+                 margin: 10px 0px;
+            }
+              
+           }
+        >p{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 40px;
+        }
+        
+        &_btn{
+        margin: 20px 0px 0px 720px;
+        padding: 15px 45px;
+        
+        left: 700px;
+        border: 1px solid $spanish_viridians;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: $spanish_viridians;
+        background-color: #00000000;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        z-index: 1;
+        }
+        &_btn:hover{
+          background-color: $spanish_viridians;
+          color: white;
+          box-shadow: -5px 5px $honey_yellow;
+          transform: translate(5px, -5px);
+        }
+    
+        }
+
+    }
+
+  }
+
+&_stickyui{
+    top: 40px;
+    z-index: 1;
+    width: 300px;
+    
+&_content{
+    font-family: 'Gilroy', sans-serif;
+    border-radius: 40px;
+    border: 5px solid #007f5f;
+    height: auto;
+    width: 308px;
+    box-shadow: -10px 10px #fdb833;
+    
+    
+    >h1{
+        font-size: 20x;
+        margin-bottom: 10px;
+        padding: 20px 10px;
+        width: 300px;
+        border-radius: 25px 25px 0px 0px;
+        background-color: $spanish_viridians;
+        font-weight: lighter;
+        color: white;
+    
+    } 
+    >h2{
+        font-size: 30px;
+        padding: 0px 10px;
+        width: 300px;
+        color: $spanish_viridians;
+         
+    }
+    >h6{
+        font-size: 15px;
+        font-weight: lighter;
+        margin-bottom: 30px;
+        padding: 0px 10px;
+        width: 300px;
+        color: #cccccc;
+    }
+    >h3{
+        font-size: 30px;
+        padding: 0px 10px;
+        width: 300px;
+        color: $spanish_viridians;
+    }
+    >ul{
+       list-style-type: none;
+       position: relative;
+       padding: 0px 30px 20px 50px;
+       width: 300px;
+       
+        >li{
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+            
+            >a{
+                display: block;
+                color: #7f7f7f;
+                text-align: left;
+                padding: 5px 0px;
+                text-decoration: none;
+                font-size: 15px;
+                transition: all 300ms ease-in-out;
+            
+    }
+            >a:hover{
+                color: $spanish_viridians;
+                margin-left: 5px;
+    }
+    }  
+    }
+
+
+}
+}
+}
+//stickui
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.maincontent{
+display: flex;
+flex-direction: column;
+>#title{
+    font-size: 200px;
+    font-family: 'Gilroy', sans-serif;
+    color: $spanish_viridians;
+    left: 50px;
+    position: relative;
+    z-index: -1;
+
+}
+}
+.sidebar{
+position: sticky;
+top:5%;
+padding-top: 50px;
+align-self: flex-start;
+padding-right: 50px;
+}
+
+//animation
+@keyframes anim1 {
+        from {
+          transform: translateX(100px);
+          opacity: 0;
+        }
+        to  {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
