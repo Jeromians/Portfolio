@@ -1,0 +1,121 @@
+@font-face{
+    font-family: Gilroy; src:"C:\Users\user\Desktop\Portfolio\Portfolio\Assets\Gilroy-Light.eot"
+}
+.Handouts{
+    
+    margin: 0;
+    padding: 0;
+    background-color: white;
+&_title{
+    margin: 20px 0px 0px 40px;
+    position: static; 
+    z-index: 1; 
+
+    >h1{
+        font-family: 'Gilroy', sans-serif;
+        font-size: 100px;
+        color: $spanish_viridians;
+        
+       }   
+    >h4{
+       font-family: 'Gilroy', sans-serif;
+       font-weight: 100;
+       font-size: 5px;
+       font-size: 20px;
+       color: #cccccc;
+       
+    }
+
+   
+}
+  &_container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 990px;
+    height: auto;
+    margin-bottom: 30px;
+    z-index: 0;
+        
+     &_content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 30px 60px 0px 30px;
+        
+     &_item{
+         width: 900px;
+         margin: 20px 0px;
+        >h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight:  900;
+            font-size: 40px;
+            color: $spanish_viridians;
+            
+        }
+       >h6{
+            font-family:'Gilroy', sans-serif;
+            font-weight: 100;
+            margin: 0px 0px 5px 0px;
+            font-size: 15px;
+            color: #cccccc;
+        }
+        >p{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+        }
+        
+        &_btn{
+        margin: 20px 0px 0px 720px;
+        padding: 15px 45px;
+        
+        left: 700px;
+        border: 1px solid $spanish_viridians;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: $spanish_viridians;
+        background-color: #00000000;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        z-index: 1;
+        }
+        &_btn:hover{
+          background-color: $spanish_viridians;
+          color: white;
+          box-shadow: -5px 5px $honey_yellow;
+          transform: translate(5px, -5px);
+        }
+    
+        }
+
+    }
+
+  }
+
+//stickui
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.maincontent{
+display: flex;
+flex-direction: column;
+}
+.sidebar{
+position: sticky;
+top:5%;
+padding-top: 50px;
+align-self: flex-start;
+padding-right: 50px;
+}
+}
+
+//animation
+[aos="fade"].aos-animate{
+    opacity: 0;
+    transition-property: opacity;
+}
+[aos="fade"]{
+    opacity: 1;
+}

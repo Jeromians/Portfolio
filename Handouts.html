@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" size= 32x32; type="image/img" href="./Assets/Logo(Favicon).png">
+    <title>Handouts</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/Script.js"></script>
+</head>
+<header class="header">
+  <nav class="header_header container flex flex-ai-c flex-jc-sb">
+      
+    <div class="header_logo">
+      <img src="./Assets/Logo.png" alt="student portal">
+      
+    </div>
+      
+      <div class="header_searchbox flex flex-ai-c flex-jc-sb" id="searchbox">
+          <p onclick="opensrch()">SEARCH</p>
+      </div>
+     
+      <!--Search Overlay-->
+      <div class="header_overlaySrch" id="Ovelay">
+        <div class="header_overlaySrch_closebtn" onclick="closeSearch()">
+        <span></span>
+        <span></span>
+        </div>
+        <div class="header_overlaySrch_content">
+            <input type="text" placeholder="Search.." class="header_overlaySrch_content_search">
+        </div>
+      </div>
+
+      <a href="#" class="header_divider" id="divider">
+          <span></span>
+      </a>
+
+      <span class="header_divider"></span>
+</nav>
+  
+<nav class="flex flex-ai-c flex-jc-sb">
+<div class="header_secondlink container">
+<ul class="header_secondlink_list">
+<li><a href="index.html">HOME</a></li>
+<li class="header_secondlink_list_handouts dropdown"><a href="#">HANDOUTS</a>
+    <!--dropdown-->
+    <div class="header_secondlink_list_handouts_container dropdown_animation">
+        <span>Subjects</span>
+        <ul class="header_secondlink_list_handouts_container_list">
+        <li><a href="perdev_ho.html">Personal Development</a></li>
+        <li><span></span></li>
+        <li><a href="r&w_ho.html">Reading and Writing</a></li>
+        <li><span></span></li>
+        <li><a href="ELS_ho.html">Earth and Life Science</a></li>
+        </ul>
+    </div>
+    <!--dropdown-->
+</li>
+<li class="header_secondlink_list_activity dropdown"><a href="#">ACTIVITIES</a>
+
+<div class="header_secondlink_list_activity_container dropdown_animation">
+    <span>Subjects</span>
+    <!--dropdown-->
+    <ul class="header_secondlink_list_activity_container_list">
+    <li><a href="#">Personal Development</a></li>
+    <li><span></span></li>
+    <li><a href="#">Reading and Writing</a></li>
+    <li><span></span></li>
+    <li><a href="#">Earth and Life Science</a></li>
+    </ul>
+    <!--dropdown-->
+</div>
+</li>
+
+<li class="header_secondlink_list_exam dropdown"><a href="#">EXAM</a>
+   <!--dropdown--> 
+    <div class="header_secondlink_list_exam_container dropdown_animation">
+        <span>Subjects</span>
+        <ul class="header_secondlink_list_exam_container_list">
+        <li><a href="#">Personal Development</a></li>
+        <li><span></span></li>
+        <li><a href="#">Reading and Writing</a></li>
+        <li><span></span></li>
+        <li><a href="#">Earth and Life Science</a></li>
+        </ul>
+    </div>
+    <!--dropdown-->
+</li>
+    
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+<body class="Handouts"> 
+<div class="wrapper">
+    <div class="maincontent">
+<div class="Handouts_title">
+<h1 class="">Personal Development</h1>
+<h4>Monday, Wednesday</h4>
+<h4 id="title">Teacher: Ana Marie Altarejos</h4>
+</div>
+<div class="Handouts_container">
+   
+      <div class="Handouts_container_content">
+        
+        <div class="Handouts_container_content_item">
+        <h2>Stress</h2>
+        <h6>December 1 2020</h6>
+        <p>
+            Stress is a feeling of emotional or physical tension. 
+            It can come from any event or thought that makes you feel frustrated, angry, or nervous. 
+            Stress is your body's reaction to a challenge or demand. In short bursts, stress can be positive, 
+            such as when it helps you avoid danger or meet a deadline.....
+        </p>
+        <a href="Stress(Perdev,HO).html">
+        <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+        </a>
+        </div>
+        <div class="Handouts_container_content_item">
+        <h2>Power of the Brain</h2>
+        <h6>December 7 2020</h6>
+        <p>
+                The theory of the whole-brain-work basically explain the oscillatory
+                dynamics of the humans and nonhuman brain during cognitive processing. the theory
+                is based on principle according to which brain function are 
+                represented by the oscillatory.....
+        </p>
+        <a href="PoweroftheMind(Perdev,HO).html">
+            <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+        </a>      
+        </div>
+        <div class="Handouts_container_content_item">
+        <h2>Aspect of Life</h2>
+        <h6>January 5 2021</h6>
+        <p>
+            There is so many people has contributed in field of psychology and it make a resounding afffect within
+            the said field.
+            Psychology borders on various other fields including physiology, neuroscience, sociology, anthropology, 
+            as well as philosophy and other components of the humanities. The history of psychology as a scholarly 
+            study of the mind and behavior dates back to the Ancient Greeks. There is also evidence of psychological 
+            thought in ancient Egypt. A high level of work on mind-sciences can be found in Vedic scriptures of Sanatana Dharm (Hinduism), 
+            an application of certain principles as a part of yogic practices of India.....
+        </p>
+        <a href="AspectofSelf(Perdev,HO).html">
+            <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+        </a>
+        </div>
+        <div class="Handouts_container_content_item">
+        <h2>Family</h2>
+        <h6>January 18 2021</h6>
+        <p>
+            Family is the most basic unit of a community.The Filipino family provides an interesting study because familism is embedded in its social
+            sphere, translating its relational quality outside the family. Being family-centred, child-centric,
+            having close ties, and a large family size (Medina, 2001; Miralao, 1994) are some basic elements of
+            families in the Philippines. Applying regression on the data from the World Values Survey for the
+            Philippines in 1996 and 2001, this study aims to explore the correlates of views on family values
+            among Filipinos, specifically those concerning the traditional nuclear family set-up, the woman's
+            roles within family, and the reciprocal relationship of the parent and child. While the results
+            show that Filipinos generally share family values, especially on those related to child rearing for
+            both parents, and child-bearing, there are indications that such views also differ across educational attainment, 
+            geographic location, social class, and ethnic groups. Disparities in views could
+            be reflecting shifting family values, which could then help explain current polarising policy
+            debates on issues on the reproductive health, divorce, and migration.......
+        </p>
+        <a href="Family(Perdev,HO).html">
+            <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+        </a>
+        </div>
+    </div>
+    <div class="Handouts_stickyui sidebar">
+        <div class="bodyLife_stickyui_content" aos="fade up">
+        <h1>Handouts</h1>
+        <h2>Life</h2>
+        <h6>Title</h6>
+        <h3>Sections:</h3>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#ProkaryotesandEukaryotes">Prokaryotes and Eukaryotes</a></li>
+            <li><a href="#Prokaryotic">Prokaryotes</a></li>
+            <li><a href="#Eukaryotes">Eukaryotes</a></li>
+            <li><a href="#activity">Activity</a></li>
+        </ul>
+        </div>
+    </div>
+
+</div>
+<div class="Handouts_title">
+    <h1 class="">Reading and Writing</h1>
+    <h4>Thursday, Fridayy</h4>
+    <h4 id="title">Teacher: Ana Marie Altarejos</h4>
+</div>
+    <div class="Handouts_container">
+   
+        <div class="bodyrNwHO_container_content">
+          
+          <div class="bodyrNwHO_container_content_item">
+          <h2>Articles</h2>
+          <h6>December 3 2020</h6>
+          <p>
+              An article is a written work published in a print or electronic medium. 
+              It may be for the purpose of propagating news, research results, academic analysis, 
+              or debate.  The main motive behind writing an article is that it should be published 
+              in either newspapers or magazines or journals so as to make some difference to the world.
+              It may be the topics of interest of the writer or it may be related to some current issues. 
+              The topic can either be serious or not-so-serious; Same goes for its tone and language......
+          </p>
+          <a href="Article(r&w,HO).html">
+          <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+          </a>
+          </div>
+          <div class="bodyrNwHO_container_content_item">
+          <h2>Abstract Writing</h2>
+          <h6>December 20 2020</h6>
+          <p>
+              An abstract is a 150- to 250-word paragraph that provides readers with a 
+              quick overview of your essay or report and its organization. It should express 
+              your thesis (or central idea) and your key points; it should also suggest any implications or 
+              applications of the research you discuss in the paper.
+          </p>
+          <a href="Abstract Writing(r&w,HO).html">
+              <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+          </a>      
+          </div>
+          <div class="bodyPerdevHO_container_content_item">
+          <h2>Posistion Papers</h2>
+          <h6>January 7 2021</h6>
+          <p>
+              A position paper (sometimes position piece for brief items) is an essay that presents an arguable opinion about an issue
+              typically that of the author or some specified entity. Position papers are published in academia, in politics, in law and other domains. 
+              The goal of a position paper is to convince the audience that the opinion presented is valid and worth listening to. Ideas for position 
+              papers that one is considering need to be carefully examined when choosing a topic, developing an argument, and organizing the paper.
+              Position papers range from the simplest format of a letter to the editor, through to the most complex in the form of an academic position paper.
+              Position papers are also used by large organizations to make public the official beliefs and recommendations of the group.
+          </p>
+          <a href="Posistion Paper(r&w,HO).html">
+              <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+          </a>
+          </div>
+          <div class="bodyPerdevHO_container_content_item">
+          <h2>Project Proposal</h2>
+          <h6>January 21 2021</h6>
+          <p>
+              A project proposal is a document that describes a proposed project and its purpose, outcomes, and the steps that will be taken to complete the project. 
+              Not to be confused with a project contract, which is the formal agreement between two parties to complete a project, a project proposal’s purpose is to 
+              communicate how a company, team, or individual plan to approach a project.
+          </p>
+          <a href="Project Proposal(r&w,HO).html">
+              <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+          </a>
+          </div>
+  
+          </div>
+  
+  
+</div>
+<div class="Handouts_title">
+<h1 class="">Earth and Life Science</h1>
+<h4>Thursday, Friday</h4>
+<h4 id="title">Teacher: Ana Marie Altarejos</h4>
+</div>
+<div class="Handouts_container">
+   
+    <div class="bodyelsHO_container_content">
+      
+      <div class="bodyelsHO_container_content_item">
+      <h2>Natural Hazards</h2>
+      <h6>December 10 2020</h6>
+      <p>
+          Natural Hazard Natural hazards are potentially damaging natural 
+          phenomena that may occur within specific period of time in a given area that may cause danger to people, 
+          structures or economic assets and which may lead to a disaster.
+      </p>
+      <a href="Natural Hazards(ELS,HO).html">
+      <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+      </a>
+      </div>
+      <div class="bodyelsHO_container_content_item">
+      <h2>Theory of Life</h2>
+      <h6>January 7 2021</h6>
+      <p>
+          How did life begin? There can hardly be a bigger question. 
+          For much of human history, almost everyone believed some version of "the gods did it". 
+          Any other explanation was inconceivable.
+      </p>
+      <p>
+          Life on Earth began more than 3 billion years ago, evolving from the most 
+          basic of microbes into a dazzling array of complexity over time. 
+          But how did the first organisms on the only known home to life in the universe develop from the primordial soup?
+      </p>
+      <a href="Theory of Life(ELS,HO).html">
+          <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+      </a>      
+      </div>
+      <div class="bodyelsHO_container_content_item">
+      <h2>Life</h2>
+      <h6>January 14 2021</h6>
+      <p>
+          our body is actually an ecosystem. It also means that you—for some definition of the word you—actually consist of both of the 
+          major types of cells: prokaryotic and eukaryotic.
+      </p>
+      <p>
+          All cells fall into one of these two broad categories. Only the single-celled organisms of the domains Bacteria and Archaea are 
+          classified as prokaryotes—pro means before and kary means nucleus. Animals, plants, fungi, and protists are all eukaryotes—eu 
+          means true—and are made up of eukaryotic cells.
+      </p>
+      <a href="Life(ELS,HO).html">
+          <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+      </a>
+      </div>
+      <div class="bodyelsHO_container_content_item">
+      <h2>Human Body System</h2>
+      <h6>January 19 2021</h6>
+      <p>
+          Organ systems are groups of organs within the body that can be thought of as working together as a unit to carry out specific tasks or functions within the body. 
+          The human body is most commonly divided into eleven organ systems, the ones listed below.
+      </p>
+      <a href="Human System(ELS,HO).html">
+          <button class="bodyPerdevHO_container_content_item_btn">READ MORE</button>
+      </a>
+      </div>
+      </div>
+</div>
+</div>
+<!--Side bar UI-->
+
+</div>
+
+
+
+
+
+
+</body>
+<footer class="footer">
+<div class="footer_box">
+
+</div>
+</footer>
+<script>
+    AOS.init({
+  duration: 1200,
+})
+</script>
+</html>
