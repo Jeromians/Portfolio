@@ -12,5 +12,3 @@ function closeSearch(){
     document.getElementById("searchbox").style.display ="block";
     document.getElementById("divider").style.display ="block"; 
 }
-
-
