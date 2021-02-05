@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" size= 32x32; type="image/img" href="./Assets/Logo(Favicon).png">
+    <title>Exams</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/Script.js"></script>
+    <link rel="script" href="js/Script.js">
+</head>
+<header class="header">
+  <nav class="header_header container flex flex-ai-c flex-jc-sb">
+      
+    <div class="header_logo">
+      <img src="./Assets/Logo.png" alt="student portal">
+      
+    </div>
+      
+      <div class="header_searchbox flex flex-ai-c flex-jc-sb" id="searchbox">
+          <p onclick="opensrch()">SEARCH</p>
+      </div>
+     
+      <!--Search Overlay-->
+      <div class="header_overlaySrch" id="Ovelay">
+        <div class="header_overlaySrch_closebtn" onclick="closeSearch()">
+        <span></span>
+        <span></span>
+        </div>
+        <div class="header_overlaySrch_content">
+            <input type="text" placeholder="Search.." class="header_overlaySrch_content_search">
+        </div>
+      </div>
+
+      <a href="#" class="header_divider" id="divider">
+          <span></span>
+      </a>
+
+      <span class="header_divider"></span>
+</nav>
+  
+<nav class="flex flex-ai-c flex-jc-sb">
+<div class="header_secondlink container">
+<ul class="header_secondlink_list">
+<li><a href="index.html">HOME</a></li>
+<li class="header_secondlink_list_handouts dropdown"><a href="Handouts.html">HANDOUTS</a>
+    <!--dropdown-->
+    <div class="header_secondlink_list_handouts_container dropdown_animation">
+        <span>Subjects</span>
+        <ul class="header_secondlink_list_handouts_container_list">
+        <li><a href="perdev_ho.html">Personal Development</a></li>
+        <li><span></span></li>
+        <li><a href="r&w_ho.html">Reading and Writing</a></li>
+        <li><span></span></li>
+        <li><a href="ELS_ho.html">Earth and Life Science</a></li>
+        </ul>
+    </div>
+    <!--dropdown-->
+</li>
+<li class="header_secondlink_list_activity dropdown"><a href="Activity.html">ACTIVITIES</a></li>
+
+
+<li class="header_secondlink_list_exam dropdown"><a href="Exam.html">EXAM</a>
+   <!--dropdown--> 
+</li>
+    
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+<body class="Exam"> 
+<div class="wrapper">
+    <div class="maincontent">
+<h1 id="title">Exam</h1>
+
+
+<div class="Exam_title">
+<h1>Personal Development</h1>
+<h4>Monday, Wednesday</h4>
+<h4 id="title">Teacher: Ana Marie Altarejos</h4>
+</div>
+<div class="Exam_container">
+   
+    <div class="Exam_container_content container flex flex-ai-c ">
+          <h3>Midterm Exam</h3>
+         <iframe src="https://drive.google.com/file/d/124XZIkdSaYu5v0cm7UHyp_1s6FQfUyJG/preview"></iframe>
+    
+    
+    </div>
+    <div class="Exam_container_content container flex flex-ai-c ">
+        <h3>Finals Exam</h3>
+        <iframe src="https://drive.google.com/file/d/1__I2klXTUh1huldIJIMa45tANq2mjoeD/preview"></iframe>
+    </div>
+</div>
+   
+
+<div class="Exam_title">
+    <h1 class="">Reading and Writing</h1>
+    <h4>Thursday, Friday</h4>
+    <h4 id="title">Teacher: Ana Marie Altarejos</h4>
+</div>
+    <div class="Exam_container">
+   
+        <div class="Exam_container_content container container flex flex-ai-c ">
+          <h3>Midterm</h3>
+          <iframe src="https://drive.google.com/file/d/1ozn0UTynTtKAZaTWxr0ouVhSxbW8AhmW/preview"></iframe>
+         
+        </div>  
+
+        <div class="Exam_container_content container flex flex-ai-c ">
+        <h3>Finals Exam</h3>
+        <iframe src="https://drive.google.com/file/d/1ozn0UTynTtKAZaTWxr0ouVhSxbW8AhmW/preview"></iframe>
+        </div>
+</div>
+
+
+
+<div class="Exam_title">
+<h1 class="">Earth and Life Science</h1>
+<h4>Thursday, Friday</h4>
+<h4 id="title">Teacher: Ana Marie Altarejos</h4>
+</div>
+<div class="Exam_container">
+<div class="Exam_container_content container flex flex-ai-c ">
+    <h3>Midterm</h3>
+    <iframe src="https://drive.google.com/file/d/1Gf1rQl1yHMQst6T3xkIzmgOI96gxJ6ah/preview"></iframe>
+</div>  
+   <div class="Exam_container_content container flex flex-ai-c ">
+    <h3>Finals Exam</h3>
+    <iframe src="https://drive.google.com/file/d/1_xxoZNj8f01_0VEUaKIVpWngIlTOO4uw/preview"></iframe>
+</div>  
+</div>
+</div>
+
+</div>
+</body>
+<footer class="footer">
+<div class="footer_box">
+</div>
+</footer>
+
+
+<script>
+const images = document.querySelectorAll('.anim');
+
+observer = new IntersectionObserver((entries) => {
+console.log(entries)
+    entries.forEach(entry => {
+        if(entry.intersectionRatio > 0) {
+            entry.target.style.animation = 'anim1 1s ease-in-out none 1 normal';
+        }
+        else {
+            entry.target.style.animation = 'none';
+        }
+    })
+
+})
+
+images.forEach(image => {
+    observer.observe(image)
+})
+
+</script>
+
+
+
+</html>
