@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/Script.js"></script>
 </head>
-<header class="header">
-  <nav class="header_header container flex flex-ai-c flex-jc-sb">
+<header class="header ">
+  <nav class="header_header container flex flex-ai-c flex-jc-sb triggers">
       
     <div class="header_logo">
       <img src="./Assets/Logo.png" alt="student portal">
@@ -80,21 +80,68 @@
         <img src="Assets/Frame 4.png" class="body_box_frames_imgs4" alt="Frame4" id="frame4">
         <img src="Assets/Frame 5.png" class="body_box_frames_imgs5" alt="Frame5" id="frame5">
       </div>
-      <div class="body_box_text">
+      <div class="body_box_text animate">
         <h1 id="Firstname">Rogelio Gio</h1>
         <h1 id="Surname">Talingdan</h1>
         <h1 id="Firstname1">Rogelio Gio</h1>
         <h1 id="Surname1">Talingdan</h1>
       </div>
       <div class="body_box_HomepageLogo">
-        <img src="Assets/homepage.png" alt="">
+        <img src="Assets/homepage.png" alt="" id="Logo">
       </div>
 </div>
 </body>
 
 <footer class="footer">
 <div class="footer_box">
-
 </div>
 </footer>
+<script>
+const triggers = document.querySelector('.triggers');
+const animation = document.querySelector('.animate');
+
+observer = new IntersectionObserver((entries) => {
+console.log(entries);
+
+if(entries[0].intersectionRatio > 0 ){
+  //intro
+  document.getElementById("frame1").style.animation = "Animation1 2s ease-in-out 0s 1 forwards";
+  document.getElementById("frame2").style.animation = "Animation1 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("frame3").style.animation = "Animation1 1s ease-in-out 0s 1 forwards";
+  document.getElementById("frame4").style.animation = "Animation1 2.5s ease-in-out 0s 1 forwards";
+  document.getElementById("frame5").style.animation = "Animation1 3s ease-in-out 0s 1 forwards";
+  //outro
+  document.getElementById("Surname").style.animation = "name2 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Firstname").style.animation = "name2 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Surname1").style.animation = "name2 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Firstname1").style.animation = "name2 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Logo").style.animation = "rotatelogo1 2s ease-in-out 0s 1 forwards";
+}
+else {
+  //outro
+  document.getElementById("frame1").style.animation = "Animation2 2s ease-in-out 0s 1 forwards"
+  document.getElementById("frame2").style.animation = "Animation2 1.5s ease-in-out 0s 1 forwards"
+  document.getElementById("frame3").style.animation = "Animation2 1s ease-in-out 0s 1 forwards"
+  document.getElementById("frame4").style.animation = "Animation2 2.5s ease-in-out 0s 1 forwards"
+  document.getElementById("frame5").style.animation = "Animation2 3s ease-in-out 0s 1 forwards"
+  
+  //intro
+  document.getElementById("Surname").style.animation = "name1 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Firstname").style.animation = "name1 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Surname1").style.animation = "name1 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Firstname1").style.animation = "name1 1.5s ease-in-out 0s 1 forwards";
+  document.getElementById("Logo").style.animation = "rotatelogo 2s ease-in-out 0s 1 forwards";
+}
+
+
+
+
+
+
+})
+observer.observe(triggers)
+
+</script>
+
+
 </html>

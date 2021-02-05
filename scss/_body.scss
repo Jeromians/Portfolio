@@ -2,11 +2,14 @@
     margin: 0px;
     padding: 0px;
     background-color: $honey_yellow;
-    width: 100%;
+    width: auto;
+    max-width: 1349px;
+    overflow-x: hidden;
 
     
     &_box{
         height: 644px;
+        max-width: inherit;
 
         &_frames{
             margin: 0;
@@ -73,11 +76,17 @@
         width: 1000px;
         >#Firstname{
             font-size: 100px;
-            animation: name1 1.5s ease-in-out 0s 1 forwards;
+            animation: none;
+            opacity: 0;
+            top: 1px;
+            position: absolute;
         }
         >#Surname{
             font-size: 150px;
-            animation: name1 1.5s ease-in-out 0s 1 forwards;
+            animation: none;
+            opacity: 0;
+            top: 120px;
+            position: absolute;
         }
         >#Firstname1{
             position: absolute;
@@ -89,7 +98,6 @@
             left: 13px;
             z-index: -1;
             opacity: 0;
-            animation: name1 1.5s ease-in-out 500ms 1 forwards;
             
         }
         >#Surname1{
@@ -102,7 +110,6 @@
             left: 24px;
             z-index: -1;
             opacity: 0;
-            animation: name1 1.5s ease-in-out 500ms 1 forwards;
         }
     }
     &_HomepageLogo{
@@ -115,7 +122,7 @@
             right: 30px;
             position: absolute;
             opacity: 0;
-            animation: rotatelogo 2s ease-in-out 500ms 1 forwards;
+            
          }
         }   
 }
@@ -123,6 +130,9 @@
 
 
 //animation 
+
+
+
 @keyframes Animation1 {
     0%{
         transform: translate(100%, 100%); 
@@ -168,15 +178,30 @@
         opacity: 1;
     }
 }
+@keyframes name2{
+    0%{
+        
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    
+    100%{
+        top:400px;
+        opacity: 0;
+    }
+}
 
 @keyframes rotatelogo {
     0%{
+        transform: rotate(0deg);
         right: -1000px;
         opacity: 0;
     }
     50%{
-        transform: rotate(0deg);
-        right: 30;
+        transform: rotate(-360deg);
+        right: 30px;
     }
     75%{
         
@@ -186,4 +211,21 @@
         opacity: 1;
     }
 
+}
+@keyframes rotatelogo1 {
+    0%{
+        transform: rotate(0deg);
+        right: 30px;
+        opacity: 1;
+    }
+    50%{
+        transform: rotate(360deg);
+        right: -600px;
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 0;
+        right: -600px;
+    }
 }
